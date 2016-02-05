@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=numero
+comment0.target=Juego(int)
+comment0.text=\r\n\ Constructor\ que\ cera\ un\ objeto\ de\ la\ clase\ juego,el\ cual\ crea\r\n\ el\ n\u00FAmero\ de\ jugadores\ indicados\ y\ crea\ el\ mazo.\r\n\ Si\ el\ n\u00FAmero\ de\ jugadores\ no\ es\ v\u00E1lido,se\ crea\ un\r\n\ juego\ con\ 4\ jugadores\ por\ defecto.\r\n
+comment1.params=
+comment1.target=void\ repartir()
+comment1.text=\r\n\ M\u00E9todo\ que\ reparte\ todas\ las\ cartas\ barajando\ el\ mazo\r\n\ y\ entregando\ alternativamente\ cartas\ a\ los\ jugadores\r\n\ tomando\ siempre\ la\ primera\ carta\ del\ mazo.\r\n\ Pueden\ quedar\ cartas\ en\ el\ mazo\r\n\ \r\n
+comment2.params=
+comment2.target=void\ mostrarCartasJugadores()
+comment2.text=\r\n\ M\u00E9todo\ que\ muestra\ por\ pantalla\ el\ id\r\n\ de\ cada\ jugador\ junto\ a\ las\ cartas\ que\ \r\n\ tiene\ en\ la\ mano.\r\n
+numComments=3

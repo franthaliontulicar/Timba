@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=id
+comment0.target=Jugador(java.lang.String)
+comment0.text=\r\n\ Constructor\ que\ crea\ un\ objeto\ jugador\ con\r\n\ el\ identificador\ id\ de\ tipo\ String.\r\n
+comment1.params=
+comment1.target=java.lang.String\ getId()
+comment1.text=\r\n\ M\u00E9todo\ que\ devuelve\ el\ identificador\r\n\ del\ jugador\ id.\r\n
+comment2.params=
+comment2.target=void\ recibirCarta()
+comment2.text=\r\n\ M\u00E9todo\ que\ agrega\ una\ carta\r\n\ a\ las\ que\ posee\ el\ jugador\r\n\ \r\n\ \r\n
+comment3.params=
+comment3.target=void\ cartasQueTieneEnLaMano()
+comment3.text=\r\n\ Devuelve\ una\ colecci\u00F3n\ de\ String\r\n\ con\ los\ nombres\ de\ las\ cartas\r\n\ \r\n\ \r\n
+numComments=4
