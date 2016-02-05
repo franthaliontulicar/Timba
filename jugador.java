@@ -1,22 +1,29 @@
-
+import java.util.ArrayList;
 /**
  * Write a description of class jugador here.
- * 
+ * CUIDADO CON LOS CAMBIOS,NO SE ESTÁN GUARDANDO BIEN
  * @author (Noelia) 
  * @version (the good one)
  */
 public class jugador 
 {
-    // instance variables - replace the example below with your own
+    // Nombre del jugador
     private String nombre;
+    //id del jugador
+    private int id;
+    //Cartas en la mano
+    private ArrayList<String>cartas;//nombre
 
     /**
-     * Constructor for objects of class jugador
+     * Constructor para los objetos de la clase
+     * jugador.Empieza sin cartas
      */
-    public jugador(String nombre)
+    public jugador(String nombre, int id)
     {
-        // initialise instance variables
-        this.nombre=nombre;
+        // Inicializamos con el nombre, el id y las cartas
+        this.id = id;
+        this.nombre = nombre;
+         cartas = new ArrayList<String>();
     }
 
     
@@ -24,9 +31,9 @@ public class jugador
      * Método que devuelve el identificador
      * del jugador
      */
-    public void getId(int id)
+    public int getId()
     {
-        // put your code here
+        // devuelve la id
         return  id;
     }
       /**
@@ -37,15 +44,12 @@ public class jugador
      */
     public void recibirCarta()
     {
-        //carta = carta +1;
-        //a lo mejor un contador es útil
-        //parametro de la clase carta
+       
+        carta = carta + 1;
     }
        /**
      * Devuelve una colección de String
-     * con los nombres de las cartas
-     * 
-     * 
+     * con los nombres de las cartas.
      */
     public void cartasQueTieneEnLaMano()
     {

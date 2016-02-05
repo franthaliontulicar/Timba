@@ -1,10 +1,10 @@
-<<<<<<< HEAD
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Random;//por si acaso
-=======
 
->>>>>>> b3a43413dd94df99723505f4ab7df5b0fae17141
+
+
 /**
  * Write a description of class Juego here.
  * 
@@ -13,7 +13,7 @@ import java.util.Random;//por si acaso
  */
 public class Juego
 {
-<<<<<<< HEAD
+
     // ArrayList que almacena los jugadores de la partida.
     private ArrayList<Jugador>jugadores;
     private int numerojugador;//numero de jugadores
@@ -23,22 +23,16 @@ public class Juego
      * el número de jugadores indicados y crea el mazo.
      * Si el número de jugadores no es válido,se crea un
      * juego con 4 jugadores por defecto.
-=======
-    // instance variables - replace the example below with your own
-    private ArrayList<String>jugadores;
-    private int numerojugador;//numero de jugadores
-    /**
-     * Constructor for objects of class Juego
->>>>>>> b3a43413dd94df99723505f4ab7df5b0fae17141
+
      */
     public Juego(int numero )
     {
         // initialise instance variables
         numerojugador = numero;
-<<<<<<< HEAD
+
         jugadores = new ArrayList<Jugador>();
         //mazo = new ArrayList<loquedigapaco>();
-        //¿pide esto el enunciado?no me consta,pero lo acoto asi por si acaso
+        //¿pide esto el enunciado?no me consta,pero lo acoto asi por si acasoSi lo pide
         if( (numero>2) && (numero<8))
         {
             
@@ -64,7 +58,7 @@ public class Juego
         {
             cartas.get(numCarta);
             idJugador.add(cartas.get(numCarta));
-            numCarta = numCarta + 1
+            numCarta = numCarta + 1;
             
         }
     }
@@ -77,32 +71,11 @@ public class Juego
     {
         for(Jugador jugador :jugadores)
         {
-          system.out.println( "El id del jugador es " + jugador.getId() + " Y tiene " + jugador.manoCarta())
+          system.out.println( "El id del jugador es " + jugador.getId() + " Y tiene " + jugador.manoCarta());
         }
         
-=======
+
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
-    }
-    /**
-     * Método que reparte todas las cartas
-     * a los jugadores de forma habitual
-     * 
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
->>>>>>> b3a43413dd94df99723505f4ab7df5b0fae17141
-    }
+    
 }
