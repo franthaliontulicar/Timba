@@ -31,14 +31,14 @@ public class Juego
         numerojugador = numero;
         jugadores = new ArrayList<Jugador>();
         //mazo = new ArrayList<>();//?  la clase mazo(falta)
-        int id = 0 ;
+        int id = 1 ;
         if( (numero>2) && (numero<8))
         {
            System.out.println("El número de jugadores es válido.Comienza la partida");
             
            while(id < numero)//? o =
            {
-            
+             jugadores.add(de alguna manera)
              id = id +1;
             }
         }
@@ -46,7 +46,7 @@ public class Juego
         {
             
            System.out. println("El número de jugadores no es válido,se crea un juego de 4 personas");
-           jugadores.add (new Jugador(0));//corrige y termina.
+           jugadores.add (new Jugador(1));//corrige y termina.
            jugadores.add (2);
            jugadores.add (3);
            jugadores.add (4);
