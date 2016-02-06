@@ -42,7 +42,14 @@ public class Jugador
      */
     public void recibirCarta(Carta unaCarta)
     {
+<<<<<<< HEAD
         cartasQueTienes.add(unaCarta.getNombre());
+=======
+       /**
+       debes añadir al arrayList de cartas
+       */
+        carta = carta + 1;
+>>>>>>> 3ab5b5668da32513885a7f79d874309a0cd2f33d
     }
 
     /**

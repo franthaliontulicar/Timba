@@ -10,7 +10,7 @@ public class Carta
     // instance variables - replace the example below with your own
     private int valor;
     private String palo;
-    private String nombre;
+   
 
     public Carta(int valor2, String palo2){
 
@@ -29,6 +29,7 @@ public class Carta
     }
 
     public String getNombre(){
+        String nombre ="El "+getValor()+" de "+getPalo();
         return nombre;
     }
 }
