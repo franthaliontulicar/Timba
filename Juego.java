@@ -8,7 +8,7 @@ import java.util.Random;//por si acaso
  * Write a description of class Juego here.
  * 
  * @author (Noelia) 
- * @version (a version number or a date)
+ * @version (the good one)
  */
 public class Juego
 {
@@ -17,7 +17,7 @@ public class Juego
     private ArrayList<Jugador>jugadores;
     private int numerojugador;//numero de jugadores
     //mazo falta
-    private ArrayList<Carta>cartas;//o string?
+    
     /**
      * Constructor que cera un objeto de la clase juego,el cual crea
      * el número de jugadores indicados y crea el mazo con 50 cartas..
@@ -36,9 +36,9 @@ public class Juego
         {
            System.out.println("El número de jugadores es válido.Comienza la partida");
             
-           while(id < numero)//? o =
+           while(id <= numero)
            {
-             jugadores.add(de alguna manera)
+             jugadores.add(new Jugador(id));//corrige
              id = id +1;
             }
         }
@@ -47,9 +47,9 @@ public class Juego
             
            System.out. println("El número de jugadores no es válido,se crea un juego de 4 personas");
            jugadores.add (new Jugador(1));//corrige y termina.
-           jugadores.add (2);
-           jugadores.add (3);
-           jugadores.add (4);
+           jugadores.add (new Jugador (2));
+           jugadores.add ( new Jugador(3));
+           jugadores.add (new Jugador(4));
 
         }
         
@@ -68,12 +68,13 @@ public class Juego
         Collections.shuffle(cartas);//
         jugadores.clear();
         int numCarta = 0;
-        int idJugador = 0;
+        int id = 1;
+        int mazo = 50;
         while(numero < numCarta)
         {
             cartas.get(numCarta);//clase carta
-            idJugador.add(cartas.get(numCarta));
-            numCarta = numCarta + 1;
+            id.add(cartas.get(numCarta));//algo con un metodo clase mazo
+            numCarta = numCarta + 1;//de las que tengo
 
         }
     }
@@ -87,7 +88,7 @@ public class Juego
     {
         for(Jugador jugador :jugadores)
         {
-            system.out.println( "El id del jugador es " + jugador.getId() + " Y tiene " + jugador.manoCarta());
+            system.out.println( "El id del jugador es " + jugador.getId() + " Y tiene " + jugador.cartasQueTieneEnLaMano());
         }
 
     }
