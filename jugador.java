@@ -44,7 +44,9 @@ public class jugador
      */
     public void recibirCarta()
     {
-       
+       /**
+       debes añadir al arrayList de cartas
+       */
         carta = carta + 1;
     }
        /**
