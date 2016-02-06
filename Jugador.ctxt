@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=nombre\ id
+comment0.target=Jugador(java.lang.String,\ int)
+comment0.text=\r\n\ Constructor\ para\ los\ objetos\ de\ la\ clase\r\n\ jugador.Empieza\ sin\ cartas\r\n
+comment1.params=
+comment1.target=int\ getId()
+comment1.text=\r\n\ M\u00E9todo\ que\ devuelve\ el\ identificador\r\n\ del\ jugador\r\n
+comment2.params=unaCarta
+comment2.target=void\ recibirCarta(Carta)
+comment2.text=\r\n\ M\u00E9todo\ que\ agrega\ una\ carta\r\n\ a\ las\ que\ posee\ el\ jugador.\r\n
+comment3.params=
+comment3.target=java.util.ArrayList\ cartasQueTieneEnLaMano()
+comment3.text=\r\n\ Devuelve\ una\ colecci\u00F3n(ArrayList)\ de\ String\r\n\ con\ los\ nombres\ de\ las\ cartas.\r\n
+numComments=4
