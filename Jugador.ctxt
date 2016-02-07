@@ -1,6 +1,6 @@
 #BlueJ class context
-comment0.params=nombre\ id
-comment0.target=Jugador(java.lang.String,\ int)
+comment0.params=id
+comment0.target=Jugador(int)
 comment0.text=\r\n\ Constructor\ para\ los\ objetos\ de\ la\ clase\r\n\ jugador.Empieza\ sin\ cartas\r\n
 comment1.params=
 comment1.target=int\ getId()

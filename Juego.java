@@ -38,7 +38,7 @@ public class Juego
             
            while(id <= numero)
            {
-             jugadores.add(new Jugador(id));//corrige
+             jugadores.add(new Jugador(id));
              id = id +1;
             }
         }
@@ -46,7 +46,7 @@ public class Juego
         {
             
            System.out. println("El número de jugadores no es válido,se crea un juego de 4 personas");
-           jugadores.add (new Jugador(1));//corrige y termina.
+           jugadores.add (new Jugador(1));
            jugadores.add (new Jugador (2));
            jugadores.add ( new Jugador(3));
            jugadores.add (new Jugador(4));

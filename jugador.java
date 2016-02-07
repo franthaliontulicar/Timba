@@ -8,8 +8,7 @@ import java.util.ArrayList;
  */
 public class Jugador 
 {
-    // Nombre del jugador
-    private String nombre;
+
     //id del jugador
     private int id;
     //Cartas en la mano
@@ -19,11 +18,10 @@ public class Jugador
      * Constructor para los objetos de la clase
      * jugador.Empieza sin cartas
      */
-    public Jugador(String nombre, int id)
+    public Jugador( int id)
     {
-        // Inicializamos con el nombre, el id y las cartas
+        // Inicializamos con  el id y las cartas
         this.id = id;
-        this.nombre = nombre;
         cartasQueTienes = new ArrayList<String>();
     }
 
@@ -44,7 +42,7 @@ public class Jugador
     public void recibirCarta(Carta unaCarta)
     {
 
-      cartasQueTienes.add(unaCarta.getNombre());
+        cartasQueTienes.add(unaCarta.getNombre());
 
     }
 
@@ -54,7 +52,7 @@ public class Jugador
      */
     public ArrayList cartasQueTieneEnLaMano()
     {
-        
+
         return cartasQueTienes;
 
     }
