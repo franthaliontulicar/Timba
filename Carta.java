@@ -1,4 +1,5 @@
 
+
 /**
  * Write a description of class Carta here.
  * 
@@ -29,7 +30,21 @@ public class Carta
     }
 
     public String getNombre(){
-        String nombre ="El "+getValor()+" de "+getPalo();
-        return nombre;
+        String nombre ="El "+getValor();
+            if(valor > 10){
+                if(valor == 11){
+                    nombre =" la J  ";
+                }
+                else if(valor == 12){
+                    nombre =" la Q  ";
+                }
+                else{
+                    nombre ="La K ";
+                }
+            } else if(valor == 1){
+                nombre ="El AS ";
+            }
+        
+        return nombre+" de "+getPalo();
     }
 }
