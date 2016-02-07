@@ -65,13 +65,13 @@ public class Juego
     {
         
         mazo.barajar();//baraja las cartas
-        int mazo = 50;//numero de cartas a repartir
+        int mazos = 50;//numero de cartas a repartir
         int numCarta = 0;// número de cartas para cada jugador
         int id = 1;//id de cada jugador
         
-        while(numCarta>(mazo/jugadores.size()))
+        while(numCarta>(mazos/jugadores.size()))
         {
-           jugadores.get(id).recibirCarta(mazo.tomarPrimera());//interger can´t.
+           jugadores.get(id).recibirCarta(mazo.tomarPrimera());
            id = id +1;
            numCarta = numCarta + 1;
         }
