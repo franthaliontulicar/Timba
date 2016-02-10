@@ -12,7 +12,7 @@ public class Jugador
     //id del jugador
     private int id;
     //Cartas en la mano
-    private ArrayList<String>cartasQueTienes;
+    private ArrayList<String> cartasQueTienes;
 
     /**
      * Constructor para los objetos de la clase
